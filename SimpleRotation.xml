@@ -1,0 +1,29 @@
+<Frame name="SSR" parent="UIParent">
+	<Size x="384" y="512"/>
+	<Anchors>
+		<Anchor point="CENTER" relativePoint="CENTER" relativeTo="UIParent"/>
+	</Anchors>
+	<Layers>
+		<Layer level="BORDER">
+			<Texture file="Interface\BankFrame\UI-BankFrame-TopLeft">
+				<Anchors>
+					<Anchor point="TOPLEFT"/>
+				</Anchors>
+			</Texture>
+			<Texture file="Interface\BankFrame\UI-BankFrame-TopRight">
+				<Anchors>
+					<Anchor point="TOPRIGHT"/>
+				</Anchors>
+			</Texture>
+			<Texture file="Interface\BankFrame\UI-BankFrame-BotLeft">
+				<Anchors>
+					<Anchor point="BOTTOMLEFT"/>
+				</Anchors>
+			</Texture>
+			<Texture file="Interface\BankFrame\UI-BankFrame-BotRight">
+				<Anchors>
+					<Anchor point="BOTTOMRIGHT"/>
+				</Anchors>
+			</Texture>
+		</Layer>
+	</Frame>
